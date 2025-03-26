@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wZVs5tcL75/vmKikPRdF/VtLiWIZi9H8cfUJyXuL2uc=",
+  "Source": "testreactapi",
+  "BasePath": "_content/testreactapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
