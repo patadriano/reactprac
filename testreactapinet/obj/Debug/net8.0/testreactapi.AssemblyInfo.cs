@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("testreactapi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84da3210cbf80a79acfa65655bd72e08091afe52")]
 [assembly: System.Reflection.AssemblyProductAttribute("testreactapi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("testreactapi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
