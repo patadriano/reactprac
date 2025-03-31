@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PatAA\\Downloads\\testreactapi\\",
+  "WorkspaceRootPath": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|c:\\users\\pataa\\downloads\\testreactapi\\controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|c:\\users\\pataa\\downloads\\reactpractice2\\testreactapi\\controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|solutionrelative:controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|c:\\users\\pataa\\downloads\\testreactapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|c:\\users\\pataa\\downloads\\testreactapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,45 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PatAA\\Downloads\\testreactapi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\PatAA\\Downloads\\testreactapi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T07:14:36.186Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HelloController.cs",
-              "DocumentMoniker": "C:\\Users\\PatAA\\Downloads\\testreactapi\\Controllers\\HelloController.cs",
+              "DocumentMoniker": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapi\\Controllers\\HelloController.cs",
               "RelativeDocumentMoniker": "Controllers\\HelloController.cs",
-              "ToolTip": "C:\\Users\\PatAA\\Downloads\\testreactapi\\Controllers\\HelloController.cs*",
-              "RelativeToolTip": "Controllers\\HelloController.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "ToolTip": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapi\\Controllers\\HelloController.cs",
+              "RelativeToolTip": "Controllers\\HelloController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T07:14:01.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\PatAA\\Downloads\\testreactapi\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\PatAA\\Downloads\\testreactapi\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T07:13:28.222Z",
               "EditorCaption": ""
             },
             {
@@ -74,6 +48,30 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:14:36.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:13:28.222Z"
             }
           ]
         },

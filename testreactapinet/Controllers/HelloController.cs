@@ -24,6 +24,21 @@ namespace testreactapi.Controllers
             new Image { Description = "Description6" }
         };
 
+        private static List<InitialImage> initimages = new List<InitialImage>
+        {
+            new InitialImage { description1 = images[0] },
+            new InitialImage { description2 = images2[0] },
+            new InitialImage { description3 = images3[0] },
+            
+        };
+
+        [HttpGet]
+        [Route("initial")]
+        public ActionResult<IEnumerable<InitialImage>> GetItemsInitial()
+        {
+
+            return Ok(initimages);
+        }
         [HttpGet]
         [Route("yolo")]
         public ActionResult<IEnumerable<Image>> GetItems1()

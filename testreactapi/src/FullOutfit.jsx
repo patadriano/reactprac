@@ -1,43 +1,59 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import ClothesPicker from "./ClothesPicker";
 
-const Parent = () => {
-    const [fetchedData, setFetchedData] = useState({
-        description1: "",
-        description2: "",
-        description3: ""
-      }); 
+const ParentComponent = () => {
+  const [fetchedData, setFetchedData] = useState({
+    description1: null,
+    description2: null,
+    description3: null,
+  });
 
-      const handleSaveData = (description, key) => {
-        setFetchedData((prevData) => ({
-          ...prevData,
-          [key]: description, // Dynamically update the specific description based on the key
-        }));
-      };
+  useEffect(() => {
+    axios
+      .get("https://localhost:7042/api/hello/initial")
+      .then((response) => {
+        setFetchedData({
+          description1: response.data[0].description1,
+          description2: response.data[0].description2,
+          description3: response.data[0].description3,
+        });
+      });
+  }, []);
+
+  // Handle saving data with dynamic keys
+  const handleSaveData = (description, key) => {
+    setFetchedData((prevData) => ({
+      ...prevData,
+      [key]: description, 
+    }));
+  };
 
   const handleSaveAllData = () => {
-    // Log all the descriptions when the button is clicked
     console.log("All data saved:", fetchedData);
   };
 
   return (
-    <React.StrictMode>
+    <div>
       <ClothesPicker
         apiUrl="https://localhost:7042/api/hello/yolo"
-        saveData={(description) => handleSaveData(description, "description1")}
+        saveData={handleSaveData}
+        descriptionKey="description1" 
       />
       <ClothesPicker
         apiUrl="https://localhost:7042/api/hello/yeet"
-        saveData={(description) => handleSaveData(description, "description2")}
+        saveData={handleSaveData}
+        descriptionKey="description2" 
       />
       <ClothesPicker
         apiUrl="https://localhost:7042/api/hello/yay"
-        saveData={(description) => handleSaveData(description, "description3")}
+        saveData={handleSaveData}
+        descriptionKey="description3" 
       />
 
       <button onClick={handleSaveAllData}>Save All Data</button>
-    </React.StrictMode>
+    </div>
   );
 };
 
-export default Parent;
+export default ParentComponent;

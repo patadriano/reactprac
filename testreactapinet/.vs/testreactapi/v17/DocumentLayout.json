@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|solutionrelative:controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|c:\\users\\pataa\\downloads\\reactpractice2\\testreactapinet\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|solutionrelative:image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapinet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5E92450-0A9D-4D58-BDA2-F260A3EED6B7}|testreactapi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapinet\\Image.cs",
+              "RelativeDocumentMoniker": "Image.cs",
+              "ToolTip": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapinet\\Image.cs",
+              "RelativeToolTip": "Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:35:57.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelloController.cs",
+              "DocumentMoniker": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapinet\\Controllers\\HelloController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HelloController.cs",
+              "ToolTip": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapinet\\Controllers\\HelloController.cs",
+              "RelativeToolTip": "Controllers\\HelloController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAADwvx8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:14:01.969Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -38,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapinet\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -50,20 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HelloController.cs",
-              "DocumentMoniker": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapinet\\Controllers\\HelloController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HelloController.cs",
-              "ToolTip": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapinet\\Controllers\\HelloController.cs",
-              "RelativeToolTip": "Controllers\\HelloController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T07:14:01.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapinet\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",

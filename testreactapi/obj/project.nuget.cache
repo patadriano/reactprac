@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I+jkx526YgEhh98Ph2IKwGVtCqY+jyTQltK+CJ2DlrG8pupQMfJvip84fJWM4xJSotARDZ2A3eb7v4iIipVUaw==",
+  "dgSpecHash": "XfTOCyFNRdQlAajbMuXeRLVFRqqWoqY18irV5D0LCnZ8yyCD/FC1nT9BT+ZcvSRTZ2/BCXryuW58nybnZN66gw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PatAA\\Downloads\\testreactapi\\testreactapi.csproj",
+  "projectFilePath": "C:\\Users\\PatAA\\Downloads\\reactpractice2\\testreactapi\\testreactapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PatAA\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\PatAA\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

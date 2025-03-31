@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const ClothesPicker = ({ apiUrl, saveData }) => {
+const ClothesPicker = ({ apiUrl, saveData, descriptionKey }) => {
   const [images, setImages] = useState([]);
-  const currentSlide = useRef(0); // Track the current slide using useRef
+  const [currentSlide, setCurrentSlide] = useState(0);
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -12,32 +12,37 @@ const ClothesPicker = ({ apiUrl, saveData }) => {
       .then((response) => {
         setImages(response.data);
         setError(null);
+
+        if (response.data.length > 0) {
+          saveData(response.data[0].description, descriptionKey); 
+        }
       })
       .catch((error) => {
         console.error("Error fetching images:", error);
         setError("Failed to load images.");
       });
-  }, [apiUrl]);
+  }, [apiUrl, saveData, descriptionKey]);  
 
-  // Update the parent with the current description when the slide changes
   const updateParentWithDescription = () => {
     if (images.length > 0) {
-      const description = images[currentSlide.current].description;
-      saveData(description); // Pass the description up to the parent
+      const description = images[currentSlide].description;
+      saveData(description, descriptionKey); 
     }
   };
 
   const nextSlide = () => {
     if (images.length > 0) {
-      currentSlide.current = (currentSlide.current + 1) % images.length;
-      updateParentWithDescription(); // Save the new description after updating the slide
+      const nextSlide = (currentSlide + 1) % images.length;
+      setCurrentSlide(nextSlide);
+      updateParentWithDescription(); 
     }
   };
 
   const prevSlide = () => {
     if (images.length > 0) {
-      currentSlide.current = (currentSlide.current - 1 + images.length) % images.length;
-      updateParentWithDescription(); // Save the new description after updating the slide
+      const prevSlide = (currentSlide - 1 + images.length) % images.length;
+      setCurrentSlide(prevSlide);
+      updateParentWithDescription();
     }
   };
 
@@ -52,7 +57,7 @@ const ClothesPicker = ({ apiUrl, saveData }) => {
             {" < "}
           </button>
           <div>
-            <p>{images[currentSlide.current].description}</p>
+            <p>{images[currentSlide].description}</p>
           </div>
           <button onClick={nextSlide} disabled={images.length === 0}>
             {" > "}
